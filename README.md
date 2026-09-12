@@ -1,74 +1,42 @@
 # 🧹 Data Cleaning & Preparation using Python
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Data%20Processing-013243?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+
+A practical **Data Cleaning & Preparation project using Python, Pandas, NumPy and Matplotlib** that demonstrates how raw and inconsistent data can be transformed into a clean, structured and analysis-ready dataset.
+
+---
+
 ## 📌 Project Overview
 
-This project demonstrates a complete data cleaning and preparation workflow using Python, Pandas, NumPy, and Matplotlib.
+Real-world datasets often contain missing values, duplicate records, inconsistent text formats, invalid values and different date formats.
 
-The project identifies and fixes common data-quality issues including missing values, duplicate records, inconsistent formats, invalid values, and incorrect data types.
+This project demonstrates a complete **data cleaning and preparation workflow** using Python.
 
-The cleaned dataset is then prepared for further analysis.
+The raw dataset intentionally contains several data-quality problems. These problems are identified, cleaned, validated and transformed into a reliable dataset suitable for further analysis.
 
----
-
-## 🎯 Objectives
-
-- 🔍 Inspect the raw dataset
-- ❌ Identify missing values
-- 🔁 Detect duplicate records
-- 🧹 Clean inconsistent text formats
-- 📧 Validate email addresses
-- 📅 Standardize date formats
-- 🔢 Validate numeric values
-- 🛠️ Handle missing data
-- 📊 Generate a cleaned dataset
-- 📈 Perform basic analysis on the cleaned data
-
----
-
-## 📂 Dataset
-
-The project uses a synthetic customer sales dataset created specifically for this project.
-
-The dataset contains the following fields:
-
-- Order ID
-- Customer Name
-- Email
-- City
-- Order Date
-- Product
-- Quantity
-- Unit Price
-
-The raw dataset contains intentionally introduced data-quality issues to demonstrate the cleaning process.
-
----
-
-## ⚠️ Data Quality Issues
-
-The raw dataset contained:
-
-- Missing email values
-- Missing order dates
-- Missing quantity values
-- Missing unit price values
-- Invalid email addresses
-- Inconsistent city names
-- Inconsistent product names
-- Extra spaces in text fields
-- Multiple date formats
-- Invalid numeric values
-- Duplicate business records
-
----
-
-# 🧹 Cleaning Transformations
-
-## 1. Column Name Standardization
-
-Column names were converted to lowercase and spaces were replaced with underscores.
-
-**Example:**
+### 🔄 Workflow
 
 ```text
-Customer Name → customer_name
+Raw Dataset
+     ↓
+Data Inspection
+     ↓
+Identify Data Quality Issues
+     ↓
+Clean & Standardize Data
+     ↓
+Handle Missing Values
+     ↓
+Validate Data
+     ↓
+Remove Duplicates
+     ↓
+Create Derived Columns
+     ↓
+Clean Dataset
+     ↓
+Basic Analysis
