@@ -1,0 +1,31 @@
+order_id,customer_name,email,city,order_date,product,quantity,unit_price
+1001, Rahul Kumar ,rahul@example.com,Delhi,2026-01-05,Laptop,1.0,55000.0
+1002,Priya Sharma, PRIYA@EXAMPLE.COM ,mumbai,05/01/2026,Mobile Phone,2.0,18000.0
+1003,Amit Singh,,Delhi ,2026/01/07,Headphones,1.0,2500.0
+1004,Neha Verma,neha@example.com,Bangalore,08-01-2026,Laptop,1.0,62000.0
+1005,Rohit Mehta,rohit@example,Delhi,2026-01-10,mobile phone,1.0,15000.0
+1006,Sneha Gupta,sneha@example.com,Mumbai,,Headphones,3.0,2200.0
+1007,Karan Patel,karan@example.com,Kolkata,2026-01-12,Tablet,1.0,30000.0
+1008,Pooja Shah,pooja@example.com,delhi,13/01/2026,Laptop,-1.0,58000.0
+1009,Arjun Rao,arjun@example.com,Bangalore,2026-01-14,Tablet,2.0,28000.0
+1010,Anjali Jain,anjali@example.com,Mumbai,15-01-2026,Mobile Phone,1.0,17000.0
+1011,Vikas Yadav,vikas@example.com,Delhi,2026-01-16,Headphones,,2100.0
+1012,Meera Joshi,meera@example.com,Kolkata,17/01/2026,Tablet,1.0,29000.0
+1013,  Rahul Kumar  ,rahul@example.com,Delhi,2026-01-05,Laptop,1.0,55000.0
+1014,Riya Kapoor,riya@example.com,Delhi,2026-01-20,Laptop,1.0,59000.0
+1015,Dev Malhotra,dev@example.com,Mumbai,21/01/2026,Mobile Phone,2.0,
+1016,Nisha Roy,nisha@example.com,Bangalore,2026-01-22,Tablet,1.0,31000.0
+1017,Sahil Khan,sahil@example.com,Delhi,23-01-2026,Headphones,2.0,2300.0
+1018,Tanya Bose,tanya@example.com,Kolkata,2026/01/24,Mobile Phone,1.0,16000.0
+1019,Manish Das,manish@example.com,Delhi,25/01/2026,Laptop,1.0,-5000.0
+1020,Ayesha Ali,ayesha@example.com,Mumbai,2026-01-26,Tablet,1.0,27000.0
+1021,Vivek Soni,vivek@example.com,Delhi,27/01/2026,Laptop,1.0,60000.0
+1022,Simran Kaur,simran@example.com,Bangalore,2026-01-28,Mobile Phone,1.0,19000.0
+1023,Rakesh Gupta,rakesh@example.com,Kolkata,29-01-2026,Headphones,1.0,2400.0
+1024,Poonam Arora,poonam@example.com,Delhi,2026/01/30,Tablet,2.0,27500.0
+1025,Aman Verma,aman@example.com,Mumbai,31/01/2026,Mobile Phone,1.0,17500.0
+1026,Kriti Bansal,kriti@example.com,Bangalore,2026-02-01,Laptop,1.0,61000.0
+1027,  Amit Singh,, Delhi,02/02/2026,Headphones,1.0,2600.0
+1028,Varun Nair,varun@example.com,Kolkata,2026-02-03,Tablet,1.0,28500.0
+1029,Isha Sen,isha@example.com,Mumbai,04-02-2026,Mobile Phone,2.0,18500.0
+1030,Gaurav Bhat,gaurav@example.com,Delhi,2026/02/05,Laptop,1.0,57000.0

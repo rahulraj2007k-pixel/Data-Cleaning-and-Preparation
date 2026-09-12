@@ -1,0 +1,57 @@
+============================================================
+DATA CLEANING & PREPARATION
+============================================================
+Loaded dataset: 30 rows, 8 columns
+
+--- INITIAL DATA INSPECTION ---
+Shape: (30, 8)
+Columns: ['order_id', 'customer_name', 'email', 'city', 'order_date', 'product', 'quantity', 'unit_price']
+
+Data types before cleaning:
+order_id           int64
+customer_name        str
+email                str
+city                 str
+order_date           str
+product              str
+quantity         float64
+unit_price       float64
+
+Missing values before cleaning:
+order_id         0
+customer_name    0
+email            2
+city             0
+order_date       1
+product          0
+quantity         1
+unit_price       1
+
+Exact duplicate rows before cleaning: 0
+
+Column names standardized.
+Removed leading/trailing spaces from text fields.
+Standardized city names.
+Standardized product names.
+Standardized email addresses to lowercase.
+Invalid email addresses converted to missing values: 1
+Converted multiple date formats to standard datetime format.
+Converted quantity to numeric format.
+Converted unit_price to numeric format.
+Invalid negative quantities converted to missing values: 1
+Invalid negative prices converted to missing values: 1
+Exact duplicate rows detected: 0
+Business-key duplicate rows removed: 1
+Missing quantity values filled using median: 2
+Missing unit_price values filled using median: 2
+Missing email values filled with placeholder: 3
+Missing order dates filled using median date: 1
+Created total_amount column.
+Standardized final order_date format to YYYY-MM-DD.
+
+--- FINAL VALIDATION ---
+Remaining missing values: 0
+Remaining duplicate rows: 0
+Final dataset shape: (29, 9)
+
+Cleaned dataset saved to: C:\Users\satyam kumar\Desktop\Data-Cleaning-and-Preparation\data\cleaned_dataset.csv

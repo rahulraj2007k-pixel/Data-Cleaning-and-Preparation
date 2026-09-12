@@ -1,0 +1,24 @@
+DATA QUALITY ANALYSIS SUMMARY
+==================================================
+
+Raw dataset rows: 30
+Cleaned dataset rows: 29
+Rows removed: 1
+Raw exact duplicates: 0
+Cleaned exact duplicates: 0
+Raw missing values: 5
+Cleaned missing values: 0
+
+Product Sales:
+product
+Laptop          439000.0
+Tablet          256500.0
+Mobile Phone    211500.0
+Headphones       20800.0
+
+City Sales:
+city
+Delhi        397800.0
+Bangalore    229000.0
+Mumbai       195100.0
+Kolkata      105900.0
